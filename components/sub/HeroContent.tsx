@@ -13,7 +13,7 @@ import Image from "next/image";
 const HeroContent = () => {
   const handleClick = () => {
     window.open(
-      " https://drive.google.com/file/d/1w_xOt4MYtzkRpD1VJ_k2fzStUbWCcXRW/view?usp=sharing",
+      " https://drive.google.com/file/d/1sD53YLR3i1zPD64NBYU-VtEh6kiJ6iYa/view?usp=sharing",
       "_blank",
       "noopener,noreferrer"
     );
@@ -70,11 +70,33 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-white my-5 max-w-[600px]"
         >
-          As a Full Stack Software Engineer, I bring a wealth of experience in
-          web, mobile, and software development. Explore my diverse projects and
-          skills to see my work in action. Additionally, I am a skilled
-          cybersecurity analyst with expertise in data visualization through
-          Power BI.
+          
+  Technology professional with hands-on experience in{" "}
+  <strong>
+    cloud security, cybersecurity, secure infrastructure, identity and access
+    management, data protection, SQL, Python, Power BI, and cloud platforms
+  </strong>
+  . Experienced in implementing security controls across{" "}
+  <strong>AWS, Microsoft Azure, and Google Cloud</strong>, securing sensitive
+  data environments, supporting vulnerability assessments, and developing
+  secure architectures for on-premises and cloud systems.
+
+
+
+  Strong foundation in{" "}
+  <strong>
+    data security, cloud infrastructure, IAM, Zero Trust, SIEM, DevSecOps,
+    automation, and security governance
+  </strong>
+  , with practical exposure to enterprise environments and large-scale data
+  protection. Brings a security-first approach to technology transformation,
+  with strengths in{" "}
+  <strong>
+    access control, infrastructure protection, compliance, and secure cloud
+    adoption
+  </strong>
+  .
+
         </motion.p>
         <div className="flex space-x-4">
           <motion.button

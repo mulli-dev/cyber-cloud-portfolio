@@ -77,11 +77,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="mb-[20px] text-[15px] text-center">
-          &copy; Jacob Mulli 2024 Inc. All rights reserved
+          &copy; Jacob Mulli 2026 Inc. All rights reserved
         </div>
       </div>
-    </div>
+    </div>  
   );
 };
 
 export default Footer;
+
+
